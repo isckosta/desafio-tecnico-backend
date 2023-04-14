@@ -5,7 +5,6 @@
     <div class="col-8 m-auto">
     @if(isset($category))
       <form name="formEdit" id="formEdit" method="POST" action="{{url("categorias/$category->id")}}">
-        {{ method_field('PUT') }}
     @else
       <form name="formCard" id="formCard" method="POST" action="{{url('categorias/listar')}}">
     @endif
