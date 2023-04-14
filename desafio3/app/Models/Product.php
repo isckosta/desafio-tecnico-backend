@@ -15,5 +15,8 @@ class Product extends Model
     ];
     protected $table = 'products';
 
-
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }
