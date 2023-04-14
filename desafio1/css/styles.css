@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* border: 1px solid #cccccc; */
+}
+
+.container p {
+    margin-top: 40px;
+}
+
+.title {
+    margin-top: 120px;
+}
+
+#date {
+    text-align: right;
+    margin-top: 150px;
+}
+
+#title-document {
+    margin-top: 120px;
+
+}
+
+#text-document {
+    margin-top: 150px;
+    text-indent: 50px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.signature {
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 50%;
+}
+
+.signature p {
+    margin: 0;
+    text-align: center;
+}
+
+.signature-title {
+    text-align: center;
+}
